@@ -1,0 +1,43 @@
+2020-04-07 00:31:21.3368 | INFO | WpfApp1.MainWindow | Linq end work
+2020-04-07 00:31:23.1431 | INFO | WpfApp1.MainWindow | Linq end work
+2020-04-07 00:33:21.0640 | INFO | WpfApp1.MainWindow | Linq order by end work
+2020-04-07 00:33:22.6134 | INFO | WpfApp1.MainWindow | Linq select end work
+2020-04-07 00:33:27.2742 | INFO | WpfApp1.MainWindow | Linq exception end work
+2020-04-07 00:33:27.9052 | INFO | WpfApp1.MainWindow | Linq intersect end work
+2020-04-07 00:33:29.1074 | INFO | WpfApp1.MainWindow | Linq union end work
+2020-04-07 00:33:29.9814 | INFO | WpfApp1.MainWindow | Linq join end work
+2020-04-07 00:33:30.6145 | INFO | WpfApp1.MainWindow | Linq group by end work
+2020-04-07 00:50:16.5799 | TRACE | WpfApp1.ConnectedLayer | Connection to
+Data Source: (LocalDb)\MSSQLLocalDB
+Database: Database
+State: ClosedUser: MaxisoftCatalog: DatabaseServer: (LocalDb)\MSSQLLocalDB
+2020-04-07 00:50:34.3827 | INFO | WpfApp1.MainWindow | Linq select end work
+2020-04-07 00:50:35.6137 | INFO | WpfApp1.MainWindow | Linq join end work
+2020-04-07 00:51:02.6973 | INFO | WpfApp1.MainWindow | Linq order by end work
+2020-04-07 00:51:23.9002 | INFO | WpfApp1.MainWindow | Linq group by end work
+2020-04-07 00:51:43.9937 | INFO | WpfApp1.MainWindow | Linq exception end work
+2020-04-07 00:52:02.3266 | INFO | WpfApp1.MainWindow | Linq intersect end work
+2020-04-07 00:52:05.2198 | INFO | WpfApp1.MainWindow | Linq intersect end work
+2020-04-07 00:52:06.6838 | INFO | WpfApp1.MainWindow | Linq exception end work
+2020-04-07 00:52:07.1066 | INFO | WpfApp1.MainWindow | Linq intersect end work
+2020-04-07 00:52:07.5086 | INFO | WpfApp1.MainWindow | Linq union end work
+2020-04-07 00:52:08.0209 | INFO | WpfApp1.MainWindow | Linq intersect end work
+2020-04-07 00:52:08.3833 | INFO | WpfApp1.MainWindow | Linq union end work
+2020-04-07 00:52:09.8073 | INFO | WpfApp1.MainWindow | Linq exception end work
+2020-04-07 00:52:10.7209 | INFO | WpfApp1.MainWindow | Linq union end work
+2020-04-07 00:52:11.1318 | INFO | WpfApp1.MainWindow | Linq intersect end work
+2020-04-07 00:52:12.0044 | INFO | WpfApp1.MainWindow | Linq union end work
+2020-04-07 00:52:12.2760 | INFO | WpfApp1.MainWindow | Linq intersect end work
+2020-04-07 00:52:29.0650 | INFO | WpfApp1.MainWindow | Linq union end work
+2020-04-07 00:52:29.9171 | INFO | WpfApp1.MainWindow | Linq union end work
+2020-04-07 00:52:30.1193 | INFO | WpfApp1.MainWindow | Linq union end work
+2020-04-07 00:53:35.1652 | INFO | WpfApp1.MainWindow | Linq join end work
+2020-04-07 00:53:35.7273 | INFO | WpfApp1.MainWindow | Linq join end work
+2020-04-07 00:54:35.6288 | TRACE | WpfApp1.ConnectedLayer | Connection to
+Data Source: (LocalDb)\MSSQLLocalDB
+Database: Database
+State: ClosedUser: MaxisoftCatalog: DatabaseServer: (LocalDb)\MSSQLLocalDB
+2020-04-07 00:54:39.4902 | INFO | WpfApp1.MainWindow | Linq select end work
+2020-04-07 00:54:40.9258 | INFO | WpfApp1.MainWindow | Linq join end work
+2020-04-07 00:54:42.0564 | INFO | WpfApp1.MainWindow | Linq select end work
+2020-04-07 00:54:59.0420 | INFO | WpfApp1.MainWindow | Linq join end work

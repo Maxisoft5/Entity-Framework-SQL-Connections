@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="Model1TargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CustomerSet" EntityType="Model1.Customer" />
+          <EntitySet Name="TicketSet" EntityType="Model1.Ticket" />
+          <EntitySet Name="RouteSet" EntityType="Model1.Route" />
+          <EntitySet Name="RoleSet" EntityType="Model1.Role" />
+          <AssociationSet Name="CustomerTicket" Association="Model1.CustomerTicket">
+            <End Role="Customer" EntitySet="CustomerSet" />
+            <End Role="Ticket" EntitySet="TicketSet" />
+          </AssociationSet>
+          <AssociationSet Name="TicketRoute" Association="Model1.TicketRoute">
+            <End Role="Ticket" EntitySet="TicketSet" />
+            <End Role="Route" EntitySet="RouteSet" />
+          </AssociationSet>
+          <EntitySet Name="UserSet" EntityType="Model1.User" />
+          <AssociationSet Name="UserRole" Association="Model1.UserRole">
+            <End Role="User" EntitySet="UserSet" />
+            <End Role="Role" EntitySet="RoleSet" />
+          </AssociationSet>
+          <AssociationSet Name="UserTicket" Association="Model1.UserTicket">
+            <End Role="User" EntitySet="UserSet" />
+            <End Role="Ticket" EntitySet="TicketSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FullName" Type="String" Nullable="false" />
+          <Property Name="BankCard" Type="String" Nullable="false" />
+          <Property Name="Property1" Type="String" Nullable="false" />
+          <Property Name="Property2" Type="String" Nullable="false" />
+          <NavigationProperty Name="Ticket" Relationship="Model1.CustomerTicket" FromRole="Customer" ToRole="Ticket" />
+        </EntityType>
+        <EntityType Name="Ticket">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Property1" Type="String" Nullable="false" />
+          <Property Name="Property2" Type="String" Nullable="false" />
+          <Property Name="Property3" Type="String" Nullable="false" />
+          <Property Name="Property4" Type="String" Nullable="false" />
+          <Property Name="Property5" Type="String" Nullable="false" />
+          <Property Name="Property6" Type="String" Nullable="false" />
+          <NavigationProperty Name="Customer" Relationship="Model1.CustomerTicket" FromRole="Ticket" ToRole="Customer" />
+          <NavigationProperty Name="Route" Relationship="Model1.TicketRoute" FromRole="Ticket" ToRole="Route" />
+          <NavigationProperty Name="User" Relationship="Model1.UserTicket" FromRole="Ticket" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Route">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Property1" Type="String" Nullable="false" />
+          <Property Name="Property2" Type="String" Nullable="false" />
+          <Property Name="Property3" Type="String" Nullable="false" />
+          <Property Name="Property4" Type="String" Nullable="false" />
+          <Property Name="Property5" Type="String" Nullable="false" />
+          <Property Name="Arrival" Type="String" Nullable="false" />
+          <NavigationProperty Name="Ticket" Relationship="Model1.TicketRoute" FromRole="Route" ToRole="Ticket" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Property1" Type="String" Nullable="false" />
+          <Property Name="Password" Type="String" Nullable="false" />
+          <NavigationProperty Name="Role" Relationship="Model1.UserRole" FromRole="User" ToRole="Role" />
+          <NavigationProperty Name="Ticket" Relationship="Model1.UserTicket" FromRole="User" ToRole="Ticket" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="Model1.UserRole" FromRole="Role" ToRole="User" />
+        </EntityType>
+        <Association Name="CustomerTicket">
+          <End Type="Model1.Customer" Role="Customer" Multiplicity="1" />
+          <End Type="Model1.Ticket" Role="Ticket" Multiplicity="*" />
+        </Association>
+        <Association Name="TicketRoute">
+          <End Type="Model1.Ticket" Role="Ticket" Multiplicity="1" />
+          <End Type="Model1.Route" Role="Route" Multiplicity="*" />
+        </Association>
+        <Association Name="UserRole">
+          <End Type="Model1.User" Role="User" Multiplicity="1" />
+          <End Type="Model1.Role" Role="Role" Multiplicity="*" />
+        </Association>
+        <Association Name="UserTicket">
+          <End Type="Model1.User" Role="User" Multiplicity="1" />
+          <End Type="Model1.Ticket" Role="Ticket" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="Model1" />
+        <Alias Key="Target" Value="Model1.Store" />
+        <EntityContainerMapping CdmEntityContainer="Model1Container" StorageEntityContainer="Model1TargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
