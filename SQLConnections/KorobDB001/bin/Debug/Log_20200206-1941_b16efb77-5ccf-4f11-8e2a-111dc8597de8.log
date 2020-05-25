@@ -1,0 +1,11 @@
+06.02.2020 19:41: Info [line: 18 Program -> Main()]: There is no message
+06.02.2020 19:41: Info [line: 21 Program -> Main()]: Hello world
+06.02.2020 19:41: Fine [line: 24 Program -> Main()]: Explicit define level
+06.02.2020 19:41: Info [line: 27 Program -> Main()]: Explicit define log class
+06.02.2020 19:41: Fine [line: 28 Program -> Main()]: Explicit define log class and level
+06.02.2020 19:41: Error [line: 42 Program -> Main()]: Выдано исключение типа "System.Exception".
+06.02.2020 19:41: Error [line: 43 Program -> Main()]: Log exception -> Message: Выдано исключение типа "System.Exception".
+StackTrace:    в SimpleLogger.Sample.Program.Main() в D:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\Program.cs:строка 36
+06.02.2020 19:41: Debug [line: 48 Program -> Main()]: Debug log
+06.02.2020 19:41: Debug [line: 49 Program -> Main()]: Debug log
+06.02.2020 19:41: Debug [line: 55 Program -> Main()]: I'am back!

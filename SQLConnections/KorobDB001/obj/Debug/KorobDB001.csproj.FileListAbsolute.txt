@@ -1,0 +1,22 @@
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\bin\Debug\KorobDB001.exe.config
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\bin\Debug\KorobDB001.exe
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\bin\Debug\KorobDB001.pdb
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\obj\Debug\KorobDB001.csprojAssemblyReference.cache
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\obj\Debug\KorobDB001.Form1.resources
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\obj\Debug\KorobDB001.Properties.Resources.resources
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\obj\Debug\KorobDB001.csproj.GenerateResource.cache
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\obj\Debug\KorobDB001.exe
+C:\Users\Maxisoft\source\repos\KorobDB001\KorobDB001\obj\Debug\KorobDB001.pdb
+d:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\obj\Debug\KorobDB001.csprojAssemblyReference.cache
+d:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\obj\Debug\KorobDB001.Form1.resources
+d:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\obj\Debug\KorobDB001.Properties.Resources.resources
+d:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\obj\Debug\KorobDB001.csproj.GenerateResource.cache
+d:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\obj\Debug\KorobDB001.exe
+d:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\obj\Debug\KorobDB001.pdb
+D:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\bin\Debug\KorobDB001.exe.config
+D:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\bin\Debug\KorobDB001.exe
+D:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\bin\Debug\KorobDB001.pdb
+D:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\bin\Debug\NLog.config
+D:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\bin\Debug\NLog.dll
+D:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\bin\Debug\NLog.xml
+D:\Course #3\KorobDB#2\WebSource\KorobDB001\KorobDB001\obj\Debug\KorobDB001.csproj.CopyComplete
